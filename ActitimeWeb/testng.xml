@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ActitimeWeb">
+	<listeners>
+		<listener class-name="com.actitime.utilities.Reporting" />
+	</listeners>
+
+	<test name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.actitime.testCases.TC_ACTLoginTest001" />
+			<class name="com.actitime.testCases.TC_ACTTimeTrack002" /> 
+			<class name="com.actitime.testCases.TC_ACTTimeTrack003" /> 
+			<class name="com.actitime.testCases.TC_ACTTimeTrack004" /> 
+			<class name="com.actitime.testCases.TC_ACTTimeTrack005" />
+			 <class name="com.actitime.testCases.TC_ACTReports006" /> 
+			<class name="com.actitime.testCases.TC_ACTReports007" />
+			<class name="com.actitime.testCases.TC_ACTReports008" />
+			<class name="com.actitime.testCases.TC_ACTReports009" />
+			<class name="com.actitime.testCases.TC_ACTReports010" />
+			<class name="com.actitime.testCases.TC_ACTReports011" /> 
+			<class name="com.actitime.testCases.TC_ACTReports012"/> 
+				 <class name="com.actitime.testCases.TC_ACTReports013" />
+		 <class name="com.actitime.testCases.TC_ACTReports014"/> 
+				 <class name="com.actitime.testCases.TC_ACTUsers015" /> 
+			<class name="com.actitime.testCases.TC_ACTUsers016" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
